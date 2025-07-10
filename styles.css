@@ -1,0 +1,40 @@
+/* styles.css */
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #000;
+    color: white;
+    background-color: red;
+    border: 20px;
+    
+}
+html, body, h1, h2, h3, h4, h5, h6, p, ol, a {
+    background: #4f3b78;
+    margin: 0;
+    font-weight: bolder;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px; 
+    text-align: center;
+    color:#000;
+  }
+
+h1 {
+    font-size: 50px;
+}
+
+.box {
+
+    list-style-position: inside;    
+    background: #363b4e; 
+    padding: 50px;
+}
+
+
+
+ul{
+    list-style: inside;
+    font-size: 30px;
+    background: #4f3b78;
+    text-align: center;
+    list-style: none;
+}
