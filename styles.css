@@ -1,11 +1,9 @@
 /* styles.css */
 body{
     font-family: 'Courier New', Courier, monospace;
-    background-color: #000;
     color: white;
-    background-color: red;
-    border: 20px;
-    
+    border: 10px solid black;
+    height: 100%;    
 }
 html, body, h1, h2, h3, h4, h5, h6, p, ol, a {
     background: #4f3b78;
@@ -19,7 +17,8 @@ html, body, h1, h2, h3, h4, h5, h6, p, ol, a {
   }
 
 h1 {
-    font-size: 50px;
+    font-size: 70px;
+
 }
 
 .box {
@@ -27,6 +26,8 @@ h1 {
     list-style-position: inside;    
     background: #363b4e; 
     padding: 50px;
+    min-height: 100vh;
+
 }
 
 
